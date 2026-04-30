@@ -13,6 +13,8 @@ The dataset includes benign background traffic (HTTP, Video, Control Signaling) 
 The `5G_TEID_Attack_Dataset_Clean.csv` file contains roughly 8,000 flow records. It includes 72 features comprising both generic TCP/IP flow statistics and extracted GTP-aware tunnel semantics (e.g., TEID switch rates, payload percentiles, and directionality imbalance).
 
 
+## 🧠 Machine Learning Pipeline
+Machine Learning Pipeline: The repository also includes the Jupyter Notebook (5G_TEID_Attack_ML_Pipeline.ipynb) used to perform the ANOVA F-score feature selection and train the 6 Machine Learning models (Logistic Regression, SVM, KNN, DT, Random Forest, and XGBoost).
 
 ## 📝 Citation
 If you use this dataset in your research, please cite our paper:
